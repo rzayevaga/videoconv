@@ -5,13 +5,13 @@ import config
 DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
 
 Rzayev = Client(
-    "videoconvmusic",
-    bot_token = "7287137375:AAF9RbA4ZQLfnS0c7_V4mo54qsV4r-tGpfM",
-    api_id = "18052289",
-    api_hash = "552525f45a3066fee54ca7852235c19c"
+    "videoconvm",
+    bot_token = config.BOT_TOKEN,
+    api_id = config.API_ID,
+    api_hash = comfig.API_HASH
 )
 
-DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/conert_mp3/")
+DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/convert_mp3/")
 
 
 @Rzayev.on_message(filters.private & filters.text)
