@@ -8,7 +8,7 @@ Rzayev = Client(
     "videoconvm",
     bot_token = config.BOT_TOKEN,
     api_id = config.API_ID,
-    api_hash = comfig.API_HASH
+    api_hash = config.API_HASH
 )
 
 DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/convert_mp3/")
