@@ -18,21 +18,21 @@ DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/conert_mp3/
 async def start(bot, message):
     await message.reply_sticker("CAACAgIAAxkDAAECdMZmp9GvSeZaqzMc8eOI3XOXVwM9kAACp0sAAkxU6EgAASZayQe46IoeBA")
     await message.reply_text("""Salam Dostum 🙋🏻!
-  ⎋ Mən videoconvmusic bot'am.
+  ⎋ Mən videoconv bot'am.
   Videonu mp3'ə çevirmək üçün mənə video göndərin!""")
 
 @Rzayev.on_message(filters.video & filters.private)
 async def mp3(bot, message):
     
     # download video
-    file_path = DOWNLOAD_LOCATION + f"⚕ aiteknoloji.mp3"
+    file_path = DOWNLOAD_LOCATION + f"⚕ Rzayeff.mp3"
     txt = await message.reply_text("`Serverə yüklənir ⌛️...`")
     await message.download(file_path)
     await txt.edit_text("`Uğurla yükləndi ✅`")
     
     # convert to audio
     await txt.edit_text("`mp3'ə çevrilir ⌛️`")
-    await message.reply_audio(audio=file_path, title="⎋  videoconvmusicbot", performer="@aitbots", caption="⚕ aiteknoloji: Uğurla çervrildi ☑️", quote=True)
+    await message.reply_audio(audio=file_path, title="⎋  videoconvmbot", performer="@aitbots", caption="⚕ Rzayeff: Uğurla çervrildi ☑️", quote=True)
     
     # remove file
     try:
@@ -42,5 +42,5 @@ async def mp3(bot, message):
     
     await txt.delete()
 
-print("Bot Aktivdir...")
+print("⚕️ Bot Aktivdir")
 Rzayev.run()
