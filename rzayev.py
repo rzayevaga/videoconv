@@ -19,22 +19,22 @@ async def start(bot, message):
     await message.reply_sticker("CAACAgIAAxkDAAECdMZmp9GvSeZaqzMc8eOI3XOXVwM9kAACp0sAAkxU6EgAASZayQe46IoeBA")
     await message.reply_text("""Salam Dostum 🙋🏻!
   ⎋ Mən videoconv bot'am.
-  Videonu mp3'ə çevirmək üçün mənə video göndərin!""")
+  Videonu mp3'ə çevirmək üçün mənə hər hansısa bir video göndərin!""")
 
 @Rzayev.on_message(filters.video & filters.private)
 async def mp3(bot, message):
     
-    # download video
+    # video servere yuklenir 
     file_path = DOWNLOAD_LOCATION + f"⚕ Rzayeff.mp3"
     txt = await message.reply_text("`Serverə yüklənir ⌛️...`")
     await message.download(file_path)
     await txt.edit_text("`Uğurla yükləndi ✅`")
     
-    # convert to audio
+    # mp3e çevrilir
     await txt.edit_text("`mp3'ə çevrilir ⌛️`")
-    await message.reply_audio(audio=file_path, title="⎋  videoconvmbot", performer="@aitbots", caption="⚕ Rzayeff: Uğurla çervrildi ☑️", quote=True)
+    await message.reply_audio(audio=file_path, title="⎋  videoconvmbot", performer="Aga Rzayeff", caption="⚕: Uğurla çervrildi ☑️", quote=True)
     
-    # remove file
+    # fayl serverden silinir
     try:
         os.remove(file_path)
     except:
