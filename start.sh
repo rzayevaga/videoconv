@@ -3,4 +3,4 @@ pip3 install -r requirements.txt
 echo "ㅤㅤ☑️ Uğurla yukləndi"
 echo "ㅤㅤ☞ Başlanır..."
 bash start
-echo "ㅤㅤ⚕ başlandı və Aktivdir"
+echo "ㅤㅤ⚕ çıxış edildi...."
