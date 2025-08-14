@@ -2,7 +2,7 @@ import os
 from pyrogram import Client, filters
 import config
 
-DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
+
 
 Rzayev = Client(
     "videoconvm",
