@@ -14,8 +14,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 import config
 
 """RV Bot configuration"""
-Rzayev = Client(
-    "videoconvertor-bot",
+rv = Client(
+    "rvc-bot",
     bot_token=config.BOT_TOKEN,
     api_id=config.API_ID,
     api_hash=config.API_HASH
