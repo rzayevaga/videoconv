@@ -10,7 +10,7 @@
 <!-- Stats -->
 <div align="center">
 
-[![GitHub Stars](https://img.shields.io/github/stars/rzayeffdi/videoconv?style=for-the-badge&logo=github&color=gold)](https://github.com/rzayeffdi/videoconv)
+[![GitHub Stars](https://img.shields.io/github/stars/rzayevaga/videoconv?style=for-the-badge&logo=github&color=gold)](https://github.com/rzayevaga/videoconv)
 [![Python Version](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Pyrogram](https://img.shields.io/badge/Pyrogram-2.0%2B-orange?style=for-the-badge&logo=telegram&logoColor=white)](https://pyrogram.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
