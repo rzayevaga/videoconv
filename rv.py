@@ -3,7 +3,7 @@
 created: by rzayeffdi
 Bot: simple bot that converts video to mp3 
 Website: https://rzayeffdi.tech
-
+Bot lang: Azerbaijan (Local: az_AZ)
 """
 
 
