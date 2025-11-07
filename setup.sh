@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# İstifadə: chmod +x setup.sh && ./setup.sh
-
-# --- Rənglər ---
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
@@ -91,7 +88,6 @@ BANNER
 sleep $STEP_DELAY
 cecho "$GREEN" "ㅤㅤ📚 Kitabxanaların yüklənməsi..."
 
-# --- Python3 və pip3 yoxlaması və quraşdırılması ---
 install_python_pip() {
   cecho "$YELLOW" "Python3 və/və ya pip3 tapılmadı — quraşdırma başlayır..."
   
@@ -117,7 +113,7 @@ if ! command -v pip3 >/dev/null 2>&1; then
   install_python_pip
 fi
 
-# --- requirements.txt yoxlanması və quraşdırılması ---
+
 if [ -f requirements.txt ]; then
   cecho "$BLUE" "    pip3 install -r requirements.txt başladı (səssiz mod)..."
   pip3 install -r requirements.txt --quiet &
@@ -153,7 +149,6 @@ cecho "$GREEN" "       ./root/ai/aiteknoloji/start/"
 sleep 0.4
 cecho "$MAGENTA$BOLD" "  ✔️ Bütün mərhələlər tamamlandı."
 
-# --- API məlumatlarını istə və config.py-yə yaz ---
 cecho "$CYAN" "🔑 Zəhmət olmasa API məlumatlarını daxil edin:"
 read -rp "API_ID: " API_ID
 while ! [[ "$API_ID" =~ ^[0-9]+$ ]]; do
@@ -184,7 +179,6 @@ EOF
 
 cecho "$GREEN" "✅ Config faylı uğurla yaradıldı: $CONFIG_FILE"
 
-# Start script seçimi
 if [ -f ./start ]; then
   cecho "$CYAN" "Start faylı tapıldı — işə salmaq üçün klaviaturada y toxunun. (y/N)"
   read -r -n 1 -s answer || true
