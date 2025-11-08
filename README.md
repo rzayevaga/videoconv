@@ -33,9 +33,6 @@
 | **MP3 Conversion** | ⚡ Ultra Fast | 🎵 320kbps | 🟢 ACTIVE |
 | **WAV Conversion** | ⚡ High Speed | 🎧 Lossless | 🟢 ACTIVE |
 | **OGG Conversion** | ⚡ Optimized | 🎼 256kbps | 🟢 ACTIVE |
-| **Batch Processing** | ⚡ Multi-thread | 💫 Parallel | 🟡 SOON |
-| **Cloud Storage** | ⚡ Instant | ☁️ Secure | 🟡 SOON |
-
 </div>
 
 <br>
@@ -62,8 +59,6 @@ git clone https://github.com/rzayevaga/videoconv && cd videoconv && chmod +x set
 ```
 
 <br>
-
-🎨 BOT INTERFACE PREVIEW
 
 <!-- Bot Interface Animation -->
 
@@ -99,77 +94,6 @@ git clone https://github.com/rzayevaga/videoconv && cd videoconv && chmod +x set
 
 <br>
 
-🔥 TECHNICAL SPECIFICATIONS
-
-<!-- Tech Specs Table -->
-
-<div align="center">
-
-Component Specification Performance
-Framework Pyrogram 2.0+ ⭐⭐⭐⭐⭐
-Audio Engine FFmpeg Optimized ⭐⭐⭐⭐⭐
-Conversion Speed 2-5x Faster 🚀 Ultra
-Quality Preservation 99.8% Original 💎 Premium
-Memory Management Automatic Cleanup 🔄 Efficient
-
-</div>
-
-<br>
-
-📊 SUPPORTED FORMATS MATRIX
-
-<!-- Format Matrix -->
-
-<div align="center">
-
-🎬 INPUT FORMATS
-
-Format Support Quality Size Limit
-MP4 ✅ Full 🎯 Excellent 2GB
-AVI ✅ Full 🎯 Excellent 2GB
-MOV ✅ Full 🎯 Excellent 2GB
-MKV ✅ Full 🎯 Excellent 2GB
-WEBM ✅ Full 🎯 Good 1GB
-
-🎵 OUTPUT FORMATS
-
-Format Bitrate Quality File Size
-MP3 64-320 kbps 🎵 Adjustable 🟢 Small
-WAV 1411 kbps 💎 Lossless 🔴 Large
-OGG 96-256 kbps 🎼 Optimized 🟡 Medium
-
-</div>
-
-<br>
-
-⚡ PERFORMANCE BENCHMARKS
-
-<!-- Performance Charts -->
-
-<div align="center">
-
-📈 CONVERSION SPEED COMPARISON
-
-```
-Conversion Speed (Seconds)
-┌─────────────────────────────────────────────┐
-│ MP3  ████████████████████████████ 3.2s     │
-│ WAV  ██████████████████████ 4.8s           │
-│ OGG  █████████████████████████ 4.1s        │
-└─────────────────────────────────────────────┘
-```
-
-🎯 SUCCESS RATE ANALYTICS
-
-```
-Success Rate (%)
-┌─────────────────────────────────────────────┐
-│ Overall    █████████████████████████ 98.5%  │
-│ MP3        █████████████████████████ 99.2%  │
-│ WAV        ████████████████████████ 97.8%   │
-│ OGG        ████████████████████████ 98.1%   │
-└─────────────────────────────────────────────┘
-```
 
 </div>
 
